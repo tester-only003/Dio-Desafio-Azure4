@@ -103,11 +103,145 @@ No entanto, muitas regiões não são organizadas em pares e, em vez disso, usam
 **Mais sobre Pares de Regiões:**
 [https://aka.ms/PairedRegions-ptb](https://aka.ms/PairedRegions-ptb)
 
+<br>
+
+Pares de região:<br>
+
+<img width="628" height="420" alt="Pares-regiao" src="https://github.com/user-attachments/assets/5adb0764-89c0-4cea-bf4d-9234eedb6f2a" />
+
+<br>
+<br>
+
+#### REGIÕES SOBERANAS DO AZURE
+
+*Regiões da Microsoft que estão disponibilizadas para clientes específicos (Regiões exclusivas - como para o governo dos USA).*
+<br>
+
+**Serviços Governamentais dos EUA**
+* Atende às necessidades de segurança e conformidade das agências federais, governos estaduais e locais dos EUA e seus provedores de soluções.
+
+* É uma região disponibilizada apenas para a área militar;
+
+* Instância separada do Azure.
+* Fisicamente isolada de implantações que não sejam do governo dos EUA.
+* Acessível somente ao pessoal verificado e autorizado.
+
+<br>
+<br>
+
+**Azure China**
+A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da China, em conformidade com as regulamentações governamentais.
+<br>
+* Fisicamente separada dos serviços de nuvem do Azure e operados pela 21Vianet.
+* Todos os dados permanecem dentro da China para garantir a conformidade.
+
+<br>
+
+### RECURSOS DO AZURE
+
+Os recursos do Azure são componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem.
+<br>
+
+<img width="578" height="253" alt="recursos-1" src="https://github.com/user-attachments/assets/d023a313-d138-4c59-953b-04d8873a34c6" />
+
+<br>
+<br>
+
+<img width="611" height="429" alt="recursos-2" src="https://github.com/user-attachments/assets/4b464543-2e5d-4f7c-993b-431a2c4bbf1e" />
+
+<br>
+
+*É importante não analisar apenas os recursos, mas as soluções em si.*
+
+> Os recursos não precisam estar dentro da mesma região.
+> É possível movimentar os recursos para outro grupo de recursos.
 
 
+* Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade.
+
+* Os recursos podem existir em apenas um grupo de recursos;
+* Os recursos podem existir em diferentes regiões.
+* Os aplicativos podem utilizar vários grupos de recursos.
+
+>>> Não é possível renomear um grupo de recursos
+
+<br>
+<br>
+
+### ASSINATURA DA AZURE E GRUPOS DE GERENCIAMENTO
+<br>
+
+<img width="707" height="504" alt="assinatura_azure1" src="https://github.com/user-attachments/assets/0d5bf1fc-305e-402f-8516-122474b8a9b8" />
+
+<br> 
+
+Quando criamos nossa conta, teremos apenas uma única assinatura associada.
+
+> É possível ter várias assinaturas (isso é comum nas empresas).
+
+Para entender melhor:
+Esse cenário é comum, por exemplo, em empresas multinacionais, devido a quantidade de recursos que a mesma precisará ter.
+> Uma assinatura para o pessoal de desenvolvimento, outra para o RH / Administrativo, etc.
+
+#### O que precisamos saber à nível de prova, é que uma conta pode ter várias assinaturas, mas uma assinatura está associada apenas à uma conta.
+
+**UMA CONTA  → [contem] → VÁRIAS ASSINATURAS**
+<br>
+<br>
+UMA ASSINATURA → [Associada] → UMA CONTA
+
+*Para cada conta do Azure eu posso ter quantas assinaturas eu puder; Para cada assinatura ela está respondendo para apenas uma conta.*
+
+Para cada assinatura eu vou ter uma fatura.
+> Muitas vezes as empresas usam para um projeto específico.
+> Isso ajuda a definir o centro de custo da assinatura (qual departamento irá custear essa assinatura);
 
 
+* Uma assinatura do Azure fornece a você acesso autenticado e autorizado às contas do Azure.
 
+* Limite de cobrança:
+gere relatórios de cobrança e faturas separados para cada assinatura
+
+* Limite do controle de acesso:
+gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
+
+<br>
+<br>
+
+### GRUPOS DE GERENCIAMENTO
+
+(Hierarquia)
+<br>
+
+<img width="769" height="520" alt="Grupos_gerenciamento1" src="https://github.com/user-attachments/assets/361e6d45-2461-4460-95a6-907ea0336479" />
+
+<br>
+
+* Os grupos de gerenciamento podem incluir várias assinaturas do Azure.
+
+* As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
+
+<br>
+
+#### Revisão do conteúdo: <br>
+(O que aprendemos até aqui?) <br>
+
+* Regiões, pares de regiões e regiões soberanas do Azure
+* Zonas de disponibilidade e datacenters do Azure.
+* Recursos e os grupos de recursos do Azure.
+* Assinaturas e grupos de gerenciamento.
+* Hierarquia de grupos de recursos, assinaturas e grupos de gerenciamento.
+<br>
+
+**DOCUMENTAÇÃO:**
+[https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts](https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts)
+<br>
+[https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/1-introduction](https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/1-introduction)
+<br>
+[https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure](https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)
+<br>
+[https://learn.microsoft.com/training/modules/describe-core-architectura-components-of-azure/5-describe-azure-physical-infrastructure](https://learn.microsoft.com/training/modules/describe-core-architectura-components-of-azure/5-describe-azure-physical-infrastructure)
+<br>
 
 
 
