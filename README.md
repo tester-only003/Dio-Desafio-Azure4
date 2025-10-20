@@ -234,6 +234,7 @@ gerenciar e controlar o acesso aos recursos que os usuários podem provisionar c
 <br>
 
 **DOCUMENTAÇÃO:**
+<br>
 [https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts](https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts)
 <br>
 [https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/1-introduction](https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/1-introduction)
